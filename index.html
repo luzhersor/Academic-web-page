@@ -26,6 +26,7 @@
   />
   <!-- Style sheet -->
   <link rel="stylesheet" href="css/style.css">
+  
 
   <!-- 
   <link rel="stylesheet" href="./css/bootstrap.min.css">-->
@@ -33,13 +34,14 @@
   <title>Bootstrap Theme</title>
 </head>
 
-<body  data-target="#main-nav" id="home">
+<body  data-target="#main-nav" id="home" data-spy="scroll">
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="main-nav">
     <div class="container">
-      <a href="index.html" class="navbar-brand">Dr. Dario Solano</a>
+      <a href="" class="navbar-brand">Inicio</a>
+
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> 
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav">
           
@@ -47,13 +49,13 @@
             <a href="#home-section" class="nav-link nav-link-fade-up">About me</a>
           </li>
           <li class="nav-item">
-            <a href="#explore-head-section " class="nav-link nav-link-fade-up">Explore</a>
+            <a href="#research-section" class="nav-link nav-link-fade-up">Research</a>
           </li>
           <li class="nav-item">
-            <a href="#create-head-section" class="nav-link nav-link-fade-up">Create</a>
+            <a href="#media-section" class="nav-link nav-link-fade-up">Media</a>
           </li>
           <li class="nav-item">
-            <a href="#share-head-section" class="nav-link nav-link-fade-up">Share</a>
+            <a href="#twitter-section" class="nav-link nav-link-fade-up">Twitter</a>
           </li>
           <li class="nav-item">
             <a href="about.html" class="nav-link nav-link-fade-up ">Visualizador</a>
@@ -71,14 +73,21 @@
           <div class="primary-overlay text-white">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6 text-center">
-                  <h1 class="display-2 mt-6 pt-5">
-                    Dr. Dario Solano
+                <div class=" text-center">
+                  
+                  <h1 class=" display-4 mt-6 pt-5">
+                    Dr. Darío Solano-Rojas
                   </h1>
-                  <p class="lead">Department of Geological Engineering</p>
-                  <a href="#" class="btn btn-outline-secondary btn-lg text-white">
-                    <i class="fas fa-arrow-right"></i> Read More
-                  </a>
+                  <p class="lead" style="font-weight: bold">Professor at UNAM - Independent Consultant</p>
+                
+              
+                  <a  class="btn btn-rounded" style="background-color: #55acee;" href="https://twitter.com/Mr_InSAR" role="button"><i class="fab fa-twitter me-2"></i>Twitter</a>
+
+
+                  <a  class="btn btn-rounded btn-primary" style="background-color: #00ccbb;" href="https://www.researchgate.net/profile/Dario-Solano-Rojas" role="button">                  <i class="fa-brands fa-researchgate"></i>
+                    ResearchGate</a>
+
+                  
                 </div>
                
               </div>
@@ -90,86 +99,46 @@
 
     <!-- ABOUT DARIO -->
 
-    <section id="info" class="py-3">
+    <section id="info" class="py-3 bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-6 align-self-center">
-            <p>
-            <span style="font-size: 150%; color: #035daf;">Dario Solano</span>
-              is ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
-              cum laudantium ex sequi amet. Is ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
-              cum laudantium ex sequi amet.
+           
+            <p class="text-justify">
+            <span style="font-size: 150%; color: #495b94;">Dario Solano</span>
+              is ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum cum laudantium ex sequi amet. Is ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum cum laudantium ex sequi amet.
             </p>
-            <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+
+            <a  href="mailto:dsolano@unam.mx?Subject=Contactado%20por%20WebPage" class="btn  btn-rounded">Send me an email</a>
+
+
           </div>
-          <div class="col-md-6 hover-zoom">
+          <div class="col-md-6 py-3">
             <img src="img/Dario.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
     </section>
 
-
-      <!--HOME ICON SECTION ABOUT DARIO 
-  <section id="home-icons" class="bg-light text-muted py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cog fa-3x mb-2"></i>
-          <h3>Turning Gears</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cloud fa-3x mb-2"></i>
-          <h3>Sending Data</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cart-plus fa-3x mb-2"></i>
-          <h3>Making Money</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
+  <!-- CARDS Research--> 
+  <section>
+    <div class="d-flex justify-content-center bg-dark pt-5">
+      <div class="p-2">
+        <i class="fa-solid fa-book fa-2x icon"></i>
       </div>
-    </div>
-  </section> -->
-
-   <!-- HOME HEADING SECTION Are you ready-->
-  <section id="home-heading" class="p-5">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container pt-5">
-            <h1>Are You Ready To Get Started?</h1>
-            <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit dolores. Nisi, dolor nam modi perspiciatis
-              consequatur soluta.</p>
-          </div>
-        </div>
+      <div class="p-2">
+        <h3 style="font-weight: bold;">Research</h3>
       </div>
-
     </div>
   </section>
 
-  <!-- EXPLORE HEAD -->
-  <!-- <section id="explore-head-section">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Explore</h1>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium
-            deserunt reprehenderit sunt minus.</p>
-          <a href="#" class="btn btn-outline-secondary">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </section> -->
- 
-  <section class="page-content py-5" id="explore-head-section">
-    <div class="card container">
+  <section class="bg-dark page-content py-5" id="research-section">
+   
+    <div class="card">
       <div class="content">
         <h2 class="title">Subsidence with InSAR</h2>
-        <p class="copy">Ground displacements due to changes in soil conditions represent a threat to the stability of
-         urban areas.</p>
-        <a class="btn" href="https://www.nature.com/articles/s41598-020-72293-z">Más info</a>
+        <p class="copy">Ground displacements due to changes in soil conditions represent a threat to the stability of urban areas.</p>
+        <a class="btn btn-rounded" href="https://www.nature.com/articles/s41598-020-72293-z">Más info</a>
        
       </div>
     </div>  
@@ -177,36 +146,102 @@
       <div class="content">
         <h2 class="title">Mapping subsidence using InSAR products</h2>
         <p class="copy">Approach for detection and mapping differential subsidence</p>
-        <a class="btn" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+        <a class="btn btn-rounded" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
       </div>
     </div>
     <div class="card">
       <div class="content">
         <h2 class="title">Desert Destinations</h2>
         <p class="copy">It's the desert you've always dreamed of</p>
-        <a class="btn" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+        <a class="btn btn-rounded" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
       </div>
     </div>
     <div class="card">
       <div class="content">
         <h2 class="title">Explore The Galaxy</h2>
         <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-        <a class="btn" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+        <a class="btn btn-rounded" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+      </div>
+    </div>
+
+  </section>
+
+  
+  <!-- CARDS MEDIA--> 
+
+  <section>
+    <div class="d-flex justify-content-center bg-dark ">
+      <div class="p-2">
+        <i class="fa-solid fa-microphone fa-2x icon"></i>
+      </div>
+      <div class="p-2">
+        <h3 style="font-weight: bold;">Interviews - Media</h3>
       </div>
     </div>
   </section>
 
-  <!-- EXPLORE SECTION Blanco-->
-  <section id="explore-section" class="bg-light text-muted py-5">
+  <section class="bg-dark page-content py-5" id="media-section">
+   
+    <div class="card">
+      <div class="content">
+        <h2 class="title">BBC NEWS Mundo <br> "Cuál es el origen del petróleo"</h2>
+        <p class="copy"> (y no, no viene de los dinosaurios</p>
+        <a class="btn btn-rounded" href="https://www.nature.com/articles/s41598-020-72293-z">Más info</a>
+       
+      </div>
+    </div>  
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Science Visual AAAS <br> "Sinking of Mexico City linked to metro accident"</h2>
+        <p class="copy">Satellite data reveal where ground shifting might cause track damage</p>
+        <a class="btn btn-rounded" href="https://www.science.org/content/article/sinking-mexico-city-linked-metro-accident-more-come">Más info</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Desert Destinations</h2>
+        <p class="copy">It's the desert you've always dreamed of</p>
+        <a class="btn btn-rounded" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Explore The Galaxy</h2>
+        <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+        <a class="btn btn-rounded" href="https://piahs.copernicus.org/articles/382/173/2020/">Más info</a>
+      </div>
+    </div>
+  </section>
+
+   <!-- HOME HEADING SECTION Are you ready-->
+   <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VIDEO Blanco-->
+  <section id="explore-section" class="bg-black" text-muted py-5">
     <div class="container">
       <div class="row">
 
         <div class="col-md-6 py-5">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/rZMSeJSnDXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width=100% height="315" src="https://www.youtube.com/embed/rZMSeJSnDXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
         <div class="col-md-6 py-5">
           <h3>Research</h3>
+          <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color:#495b94 ; height: 2px"
+          />
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid
             tempore perspiciatis repudiandae hic?</p>
           <div class="d-flex">
@@ -224,9 +259,10 @@
   </section>
 
   <!-- TWITTER -->
-  <section id="create-head-section" class="bg-black">
+  <section id="create-head-section" class="bg-white">
     <div class="container">
       <div class="row">
+        
         <div class="col-md-6 py-5">
           <h1 class="display-4">Recent tweets</h1>
           <p class="lead"></p>
@@ -235,9 +271,9 @@
 
         </div>
 
-        <div class="col-lg-6 py-5">
-          <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Check out our contribution to the &#39;Remote Sensing of Earth Hazards&#39; collection here: <a href="https://t.co/Y5KkIboVla">https://t.co/Y5KkIboVla</a> . We look at hidden differential <a href="https://twitter.com/hashtag/subsidence?src=hash&amp;ref_src=twsrc%5Etfw">#subsidence</a> signals in <a href="https://twitter.com/hashtag/MexicoCity?src=hash&amp;ref_src=twsrc%5Etfw">#MexicoCity</a> using satellite <a href="https://twitter.com/hashtag/InSAR?src=hash&amp;ref_src=twsrc%5Etfw">#InSAR</a><a href="https://twitter.com/SciReports?ref_src=twsrc%5Etfw">@SciReports</a> <a href="https://twitter.com/NaturePortfolio?ref_src=twsrc%5Etfw">@NaturePortfolio</a> <a href="https://t.co/MA83DVagzk">https://t.co/MA83DVagzk</a> <a href="https://t.co/HFtAFrPvRz">pic.twitter.com/HFtAFrPvRz</a></p>&mdash; Darío Solano (@Mr_InSAR) <a href="https://twitter.com/Mr_InSAR/status/1404851039686197251?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        <div class="col-md-6 py-5">
+          <a data-theme="dark" class="twitter-timeline" href="https://twitter.com/Mr_InSAR?ref_src=twsrc%5Etfw"
+          data-height="800">Tweets by Mr_InSAR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
 
 
@@ -277,53 +313,7 @@
       </div>
     </div>
   </section>-->
-
-  <!-- SHARE HEAD -->
-  <section id="share-head-section" class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Share</h1>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium
-            deserunt reprehenderit sunt minus.</p>
-          <a href="#" class="btn btn-outline-light">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SHARE SECTION -->
-  <section id="share-section" class="bg-light text-muted py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6">
-          <h3>Share What You Create</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
-            </div>
-          </div>
-
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- FOOTER -->
   <footer id="main-footer" class="bg-dark">
@@ -372,6 +362,150 @@
       </div>
     </div>
   </div>
+
+
+      <!-- FOOTER -->
+  
+
+    <footer
+    class="text-center text-lg-start text-white bg-dark"
+    
+    >
+<!-- Section: Social media -->
+<section
+       class="p-4 text-center"
+       style="background-color:#495b94"
+       >
+
+<!-- Right -->
+<div class="">
+  <a href="" class="text-white me-4">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://twitter.com/Mr_InSAR" class="text-white me-4">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="" class="text-white me-4">
+    <i class="fab fa-google"></i>
+  </a>
+  <a href="" class="text-white me-4">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="" class="text-white me-4">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/dariosolano" class="text-white me-4">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class=" text-center text-md-start mt-5">
+  <!-- Grid row -->
+  <div class="row mt-3">
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      <!-- Content -->
+      <h6 class="text-uppercase fw-bold">Company name</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px;; height: 2px"
+          />
+      <p>
+        Here you can use rows and columns to organize your footer
+        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit.
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold">Products</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color: #7c4dff; height: 2px"
+          />
+      <p>
+        <a href="#!" class="text-white">MDBootstrap</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">MDWordPress</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">BrandFlow</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">Bootstrap Angular</a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold">Useful links</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color: #7c4dff; height: 2px"
+          />
+      <p>
+        <a href="#!" class="text-white">Your Account</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">Become an Affiliate</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">Shipping Rates</a>
+      </p>
+      <p>
+        <a href="#!" class="text-white">Help</a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold">Contact</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color:#495b94 ; height: 2px"
+          />
+      <p><i class="fas fa-home mr-3"></i> Ciudad de México, FI UNAM, México</p>
+      <p><i class="fas fa-envelope mr-3"></i>  dsolano@unam.mx</p>
+      <p><i class="fas fa-phone mr-3"></i> 55 5622-0854 ext. 115</p>
+    
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
+</div>
+
+</section>
+
+
+
+<!-- Copyright -->
+<div
+  class="text-center p-3"
+  style="background-color: rgba(0, 0, 0, 0.2)"
+  >
+Desarrollado por:
+<a class="text-white" href="https://mdbootstrap.com/"
+  >@luzhersor</a
+  >
+</div>
+
+</footer>
+  </div>
+
+
 
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
